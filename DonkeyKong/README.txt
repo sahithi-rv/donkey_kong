@@ -1,0 +1,26 @@
+******************DONKEY KONG******************
+
+to play the game , run:
+python startgame.py
+
+in the current directory
+
+CONTROLS
+left and right arrow keys -- to move horizontally
+up and down arrow keys to climb the ladder
+space bar -- jump
+q or x -- quit
+
+Collect as many coins as you can and save the princess :)
+(PHASE 2)
+Testing: 
+
+the folder tests has the file test_board.py which has test cases for the game.
+It also has a conftest.py configuration file.
+
+for testing using py.test:
+run : py.test tests
+
+for testing using tox:
+run : sudo tox tests
+

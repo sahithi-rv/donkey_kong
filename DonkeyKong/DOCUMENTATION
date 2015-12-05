@@ -1,0 +1,23 @@
+there are 5 files
+
+1) startgame.py
+just initialises the positions of all the sprites(coins,ladder,platforms,borders) on the screen and sets the board
+
+2) board.py
+this file is mainly for updating the display on the screen according to the frames per second
+
+3)player.py
+this module has one class player which has all the methods for the behavior of player. It is a child of pygame.sprite class
+
+4) sprites.py
+
+this module has all the sprites that appear on the screen.
+Board class -- to set the borders for the window
+Platforms class -- to set the floors . It is a child of Border class
+Coin class -- to set coins
+Fireball -- for launching and moving fireball
+It also has Donkey , ladder ,wall class
+
+5) positions.py
+
+this has functions that seet the position of static sprites like ladder , coins , platforms ,border.

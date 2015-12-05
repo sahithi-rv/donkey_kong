@@ -1,0 +1,37 @@
+actionid=tox
+msg=packaging
+cmdargs=['/usr/bin/python', local('/home/sahithi_rvs/sem3/ssad/assignment3/201401203/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/sahithi_rvs/sem3/ssad/assignment3/201401203/.tox/dist')]
+env=None
+running sdist
+running egg_info
+writing requirements to sample.egg-info/requires.txt
+writing sample.egg-info/PKG-INFO
+writing top-level names to sample.egg-info/top_level.txt
+writing dependency_links to sample.egg-info/dependency_links.txt
+reading manifest file 'sample.egg-info/SOURCES.txt'
+writing manifest file 'sample.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+creating sample-1.2.0
+creating sample-1.2.0/sample.egg-info
+making hard links in sample-1.2.0...
+hard linking README.txt -> sample-1.2.0
+hard linking setup.py -> sample-1.2.0
+hard linking sample.egg-info/PKG-INFO -> sample-1.2.0/sample.egg-info
+hard linking sample.egg-info/SOURCES.txt -> sample-1.2.0/sample.egg-info
+hard linking sample.egg-info/dependency_links.txt -> sample-1.2.0/sample.egg-info
+hard linking sample.egg-info/requires.txt -> sample-1.2.0/sample.egg-info
+hard linking sample.egg-info/top_level.txt -> sample-1.2.0/sample.egg-info
+Writing sample-1.2.0/setup.cfg
+creating '.tox/dist/sample-1.2.0.zip' and adding 'sample-1.2.0' to it
+adding 'sample-1.2.0/setup.cfg'
+adding 'sample-1.2.0/PKG-INFO'
+adding 'sample-1.2.0/README.txt'
+adding 'sample-1.2.0/setup.py'
+adding 'sample-1.2.0/sample.egg-info/requires.txt'
+adding 'sample-1.2.0/sample.egg-info/top_level.txt'
+adding 'sample-1.2.0/sample.egg-info/PKG-INFO'
+adding 'sample-1.2.0/sample.egg-info/SOURCES.txt'
+adding 'sample-1.2.0/sample.egg-info/dependency_links.txt'
+removing 'sample-1.2.0' (and everything under it)
