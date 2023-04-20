@@ -1,11 +1,11 @@
 # Donkey Kong
 Donkey kong game written in python using pygame
 
-![Donkey Kong Board](https://github.com/sahithi-rv/donkey_kong/blob/master/DonkeyKong/images/marioBoard.png)
+<a href="url"><img src="https://github.com/sahithi-rv/donkey_kong/blob/master/DonkeyKong/images/marioBoard.png" align="center" height="500" width="500" ></a>
 
-![Donkey Kong Game On](https://github.com/sahithi-rv/donkey_kong/blob/master/DonkeyKong/images/marioOnLadder.png)
+<a href="url"><img src="https://github.com/sahithi-rv/donkey_kong/blob/master/DonkeyKong/images/marioOnLadder.png" align="center" height="500" width="500" ></a>
 
-![Donkey Kong GameOver](https://github.com/sahithi-rv/donkey_kong/blob/master/DonkeyKong/images/gameover.png)
+<a href="url"><img src="https://github.com/sahithi-rv/donkey_kong/blob/master/DonkeyKong/images/gameover.png" align="center" height="500" width="500" ></a>
 
 
 ### Install in Linux:
