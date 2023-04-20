@@ -51,10 +51,10 @@ class Board():
     #coin for score
     sc_coin=pygame.image.load("images/coin.gif").convert()
     gameover=pygame.image.load("images/gameover.jpg").convert()
-    fonts=pygame.font.SysFont("Comic Sans MS",70)
+    fonts=pygame.font.SysFont("Comic Sans MS",45)
     label_gameover=fonts.render("GAMEOVER",1,(255,255,255))
     try_again=fonts.render("TRY AGAIN",1,(255,255,255))
-    fonts=pygame.font.SysFont("Comic Sans MS",50)
+    fonts=pygame.font.SysFont("Comic Sans MS",35)
     label_sc=fonts.render("SCORE:",1,(255,255,255))
 
 
@@ -207,11 +207,11 @@ class Board():
             else:
                 Board.screen.blit(Board.gameover,(200,200))
                 Board.screen.blit(Board.label_gameover,(400,320))
-                Board.screen.blit(Board.label_sc,(440,390))
+                Board.screen.blit(Board.label_sc,(420,390))
 
                 Board.screen.blit(Board.try_again,(400,450))
                 pre_score=Board.fonts.render(str(p._scores),1,(255,255,255))
-                Board.screen.blit(pre_score,(590,390))
+                Board.screen.blit(pre_score,(550,390))
 
 
                 for event in pygame.event.get():
