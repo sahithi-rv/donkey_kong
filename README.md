@@ -17,9 +17,9 @@ Pygame
 Run `python startgame.py` in Donkey Kong directory
 
 ### Game Controls
-SpaceBar to jump
-Right and Left arrows to navigate forward and backward
-Up and Down arrows to navigate up and down the ladders
-q or x to quit the game.
-
-Hope you enjoy!!
+SpaceBar to jump <br/>
+Right and Left arrows to navigate forward and backward <br/>
+Up and Down arrows to navigate up and down the ladders <br/>
+q or x to quit the game. <br/>
+<br/>
+Hope you enjoy!! <br/>
