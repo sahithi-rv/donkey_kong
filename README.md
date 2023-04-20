@@ -14,7 +14,7 @@ Pygame
 `sudo apt-get install python-pygame`
 
 ### To Launch the game:
-`python startgame.py`
+Run `python startgame.py` in Donkey Kong directory
 
 ### Game Controls
 SpaceBar to jump
